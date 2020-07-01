@@ -1,0 +1,26 @@
+<div class="d-flex h-100 justify-content-center p-3">
+  <div class="different-angles">
+    <ul style="list-style:none;">
+      <li>
+        <img src="../../assets/shoe_1.jpg">
+      </li>
+      <li>
+        <img src="../../assets/shoe_2.jpg">
+      </li>
+      <li>
+        <img src="../../assets/shoe_3.jpg">
+      </li>
+    </ul>
+  </div>
+  <div>
+    <img src="../../../assets/nike_shoe.jpg">
+  </div>
+  <div class="d-flex flex-column">
+    <span>{{details.name}}</span>
+    <small>{{details.description}}</small>
+    <span>Price</span>
+    <small>{{details.price}}/-</small>
+    <button class="btn btn-primary">{{details.availability == 'A' ? 'Add to cart' : 'Out of Stock'}}</button>
+  </div>
+</div>
+
